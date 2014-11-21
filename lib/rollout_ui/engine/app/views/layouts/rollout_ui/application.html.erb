@@ -8,7 +8,8 @@
     <% if (defined?(Rails) && Rails.env.production?) || ENV['RACK_ENV'].to_s.downcase == 'production' -%>
         <style type="text/css">
           body {
-              background: #700f00 url(/assets/rollout_ui/red_brick_wall.png);
+            background-image: url("<%=u /asrollout_ui/red_brick_wall.png %>");
+            background: #700f00;
             }
           </style>
     <% end -%>
