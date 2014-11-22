@@ -1,3 +1,3 @@
 module RolloutUi
-  Version = "0.3.0.6"
+  Version = "0.3.0.7"
 end
